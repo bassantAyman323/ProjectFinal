@@ -45,7 +45,7 @@ margin-right: 15px;
 .column2{
   flex: 2;
  }
-.about{
+/* .about{
   padding: 20px;
   display: flex;
   align-items: center;
@@ -53,4 +53,4 @@ margin-right: 15px;
   margin-left: 150px;
   margin-right: 150px;
   margin-top: 50px;
-}
+} */
