@@ -4,9 +4,9 @@ function About (){
     return(
         <div className="about">
             <Container>
-            <Row>
+            <Row lg={2} md ={1} xs={1}>
                {/* <div className="column1"> */}
-               <Col>
+               <Col sm={4} style={{padding:2}}>
  <header>
     
 
@@ -33,7 +33,7 @@ function About (){
     {/* </div> */}
     </Col>
     {/* <div className="column"> */}
-    <Col>
+    <Col sm={4}>
  <header>
     
           
