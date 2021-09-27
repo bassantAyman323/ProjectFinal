@@ -1,12 +1,15 @@
 import react from 'react';
-
+import { Container, Row,Col } from 'react-bootstrap';
 function About (){
     return(
         <div className="about">
-               <div className="column1">
+            <Container>
+            <Row>
+               {/* <div className="column1"> */}
+               <Col>
  <header>
     
-          
+
             <div id="column" >
             
                 <div id="row" >
@@ -27,8 +30,10 @@ function About (){
     </main>
      
      
-    </div>
-    <div className="column">
+    {/* </div> */}
+    </Col>
+    {/* <div className="column"> */}
+    <Col>
  <header>
     
           
@@ -51,8 +56,12 @@ function About (){
      
     </main>
      
-     
-    </div>
+{/*      
+    </div> 
+    */}
+    </Col>
+    </Row>
+    </Container>
         </div>
     );
 }
